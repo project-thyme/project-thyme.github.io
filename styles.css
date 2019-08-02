@@ -370,10 +370,10 @@ nav a {
 }
 
 .article-content{
-  width: 66.3%;
+  width: 61.67%;
   height: 100%;
   align-items: center;
-  float: right;
+  float: left;
   max-width: 1610px;
   display: block;
   box-sizing: content-box;
@@ -391,8 +391,8 @@ nav a {
   font-weight: 200;
   font-family: "Helvetica Neue";
   color: #444444;
-  text-align: right;
-  line-height: 29.9px;
+  text-align: left;
+  line-height: 32px;
   padding: 4;
 
 }
