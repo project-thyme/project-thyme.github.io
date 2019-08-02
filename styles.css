@@ -231,22 +231,23 @@ header{
 
 /* NAVIGATION */
 nav a {
-  text-align: right;
+  text-align: center;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 23.8px;
   font-weight: 200;
   color: #444444;
-  padding: 6px;
+  padding: 8px;
   margin: 5px;
 }
 
 nav a:hover{
   text-decoration: none;
   background-color: #9bc7cb;
+  padding: 8px;
 }
 
 .homenav {
-  text-align: right;
+  text-align: center;
   float:right;
   margin-top: -20px;
   margin-right: 10px;
@@ -256,7 +257,7 @@ nav a:hover{
 .homenav a {
   padding: 6px;
   margin: 5px;
-  text-align: right;
+  text-align: center;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 23.8px;
   font-weight: 200;
@@ -266,7 +267,8 @@ nav a:hover{
 
 .homenav a:hover{
   text-decoration: none;
-  background-color: #9bc7cb;
+  background-color: #de7f72;
+  color: #dcdcdc;
 }
 
 
