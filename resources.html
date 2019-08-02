@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Project Thyme</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|EB+Garamond&display=swap" rel="stylesheet">
+    <script src="Javascript/js/jquery-3.4.1.min.js"></script>
+    <script src="Javascript/infinite-scroll.pkgd.min.js"></script>
+    <script>
+      $('.container').infiniteScroll({
+        path: '.pagination__next',
+        append: '.post',
+        history: false,
+      });
+    </script>
+</head>
+<body>
+
+  <div class="page-wrap">
+    <header>
+
+    <nav>
+        <a href="index.html"> Blog </a>
+        <a href="about.html"> The Story </a>
+        <a href="resources.html"> Additional Resources </a>
+        <a href="contact.html"> Contact </a>
+    </nav>
+    <h1 class="allpageheader">
+      <a href="home.html"> project : Thyme </a>
+    </h1>
+
+  </header>
+
+<!-- RESOURCE LIST  -->
+    <main role="main">
+      <div class="resourceheadersection">
+        <h1 class="resourceh1"> Spark Conversation </h1>
+      </div>
+      <div class="container">
+        <div class="OWquote">
+          <blockquote>
+            <p> "Our ambition should be to rule ourselves, the true kingdom for each one of us; and true progress is to know more, and be more, and to do more."</p>
+            <cite>- Oscar Wilde</cite>
+          </blockquote>
+        </div>
+        <div class="resourcecontainer">
+        <h2 class="resourcelistheader"> Grammar Resources </h2>
+        <ul>
+          <li><a class="resourcelinks" href="https://www.englishgrammar101.com/">English Grammar 101</a></li>
+          <li><a class="resourcelinks" href="http://learnenglish.britishcouncil.org/learnenglish-podcasts">Elementary Podcasts by the British Council</a></li>
+          <li><a class="resourcelinks" href="https://teacherluke.co.uk/">Luke's English Podcast</a></li>
+          <li><a class="resourcelink" href="https://www.bbc.co.uk/programmes/p02pc9zn/episodes/downloads">The English We Speak</a></li>
+        </ul>
+        <br>
+        <h2 class="resourcelistheader"> Mindfulness Resources </h2>
+        <ul>
+          <li><a class="resourcelinks" href="https://podcasts.apple.com/au/podcast/oprahs-supersoul-conversations/id1264843400?mt=2">Oprah's Supersoul Conversations</a></li>
+          <li><a class="resourcelinks" href="https://podcasts.apple.com/au/podcast/happier-with-gretchen-rubin/id969519520?mt=2">Happier With Gretchen Rubin</a></li>
+          <li><a class="resourcelinks" href="https://www.intelligentchange.com/products/the-five-minute-journal">5-Minute Journal</a></li>
+          <li><a class="resourcelink" href="https://apps.apple.com/us/app/10-happier-guided-meditation/id992210239">10% Happier</a></li>
+        </ul>
+      </div>
+        <br>
+      </div>
+    </main>
+    <div class="push"></div>
+  </div>
+<!-- FOOTER -->
+</body>
+<div class="footer">
+    <footer>
+          <p>&copy; 2019 Project Thyme </p>
+    </footer>
+</div>
+</html>
