@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width">
+      <title> Project Thyme</title>
+      <link rel="stylesheet" href="styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Crimson+Text|EB+Garamond&display=swap" rel="stylesheet">
+      <script src="Javascript/js/jquery-3.4.1.min.js"></script>
+      <script src="Javascript/infinite-scroll.pkgd.min.js"></script>
+      <script>
+        $('.container').infiniteScroll({
+          path: '.pagination__next',
+          append: '.post',
+          history: false,
+        });
+      </script>
+
+  </head>
+  <body>
+
+    <div class="page-wrap">
+      <header>
+
+        <nav>
+            <a href="blog.html"> Blog </a>
+            <a href="about.html"> The Story </a>
+            <a href="resources.html"> Additional Resources </a>
+            <a href="contact.html"> Contact </a>
+        </nav>
+        <h1 class="allpageheader">
+          <a href="index.html"> project : Thyme </a>
+        </h1>
+
+      </header>
+
+<!-- Start of Blog -->
+    <main role="main">
+      <div class="container">
+        <article class="post">
+          <div class="article">
+            <h1 class="article-title"> Article Title</h1>
+            <p class="article-meta"><time datetime="2019-07-11"> Posted on July 11th, 2019</time></p>
+            <img class="article1-image1" src="Images/image3.jpg" alt="Cover Page Picture">
+            <div class="article-content">
+            <p class="article-text">Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better than cutting. Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us, headmaster Erumpent horn. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
+            <p class="article-text">Thestral dirigible plums, Viktor Krum hexed memory charm Animagus Invisibility Cloak three-headed Dog. Half-Blood Prince Invisibility Cloak cauldron cakes, hiya Harry! Basilisk venom Umbridge swiveling blue eye Levicorpus, nitwit blubber oddment tweak. Chasers Winky quills The Boy Who Lived bat spleens cupboard under the stairs flying motorcycle. Sirius Black Holyhead Harpies, you’ve got dirt on your nose. Floating candles Sir Cadogan The Sight three hoops disciplinary hearing. Grindlewald pig’s tail Sorcerer's Stone biting teacup. Side-along dragon-scale suits Filch 20 points, Mr. Potter.
+            <p class="article-text">Half-giant jinxes peg-leg gillywater broken glasses large black dog Great Hall. Nearly-Headless Nick now string them together, and answer me this, which creature would you be unwilling to kiss? Poltergeist sticking charm, troll umbrella stand flying cars golden locket Lily Potter. Pumpkin juice Trevor wave your wand out glass orbs, a Grim knitted hats. Stan Shunpike doe patronus, suck his soul Muggle-Born large order of drills the trace. Bred in captivity fell through the veil, quaffle blue flame ickle diddykins Aragog. Yer a wizard, Harry Doxycide the woes of Mrs. Weasley Goblet of Fire.</p>
+          </div>
+            <hr class="article-divider">
+          </div>
+        </article>
+        <article class="post">...</article>
+      </div>
+    </main>
+      <div class="push"></div>
+    </div>
+<!-- This is where my wrapper ends -->
+  </body>
+  <div class="footer">
+    <footer>
+        <p>&copy; 2019 Project Thyme </p>
+    </footer>
+  </div>
+</html>
